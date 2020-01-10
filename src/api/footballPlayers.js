@@ -2,5 +2,5 @@ import axios from "axios";
 
 export default axios.create({
   baseURL:
-    "https://football-players-b31f2.firebaseio.com/players.json?print=pretty"
+    "https://football-players-b31f2.firebaseio.com"
 });
