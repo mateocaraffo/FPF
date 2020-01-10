@@ -37,12 +37,10 @@ export const fetchPlayers = () => dispatch => {
     })
 };
 
-export const filterPlayers = filters => {
-  return {
+export const filterPlayers = filters => ({
     type: t.FILTER,
     payload: filters
-  };
-};
+});
 
 export function calculateAge(birthday) {
   var today = new Date();
