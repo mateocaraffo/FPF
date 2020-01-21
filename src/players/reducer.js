@@ -7,7 +7,7 @@ const initialState = {
   currentFilters: {
     values: {
       name: '',
-      age: 40,
+      age: 50,
       position: ''
     }
   }
